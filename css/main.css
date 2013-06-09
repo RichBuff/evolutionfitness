@@ -44,7 +44,6 @@
 }
 
 .white-text {
-	color: black;
     font-size:2em;
 }
 
@@ -66,7 +65,9 @@
 	}
 	
 	.menu{
-		width:98%;
+		width:73%;
+        position: relative;
+        top:-7em;
 		font-family: verdana, Segoe UI;
 		background-color:#adadad;
 		margin-left: 9px;
@@ -83,7 +84,7 @@
 	.right-address {
 		position:relative;
 		top:-5em;
-		left: 70%;
+		left: 65%;
 		width: 10em;
 	}
 	
@@ -97,17 +98,19 @@
 }
 
 
-@media (max-width:960px){
+@media screen and (max-width:960px){
 	bodyx{
 		background-color: #555;
 		margin-left: 2em;
 		margin-right: 2em;
 		width:90%;
-		border: 1px solid 656565;
+		border: 1px solid #656565;
 	}
 
 	.menu{
-		width:90%;
+		width:95%;
+        position: relative;
+        top:-7em;
 		font-family: verdana, Segoe UI;
 		background-color:#adadad;
 		margin-left: 9px;
@@ -131,14 +134,15 @@
 
 	.right-address {
 		position:relative;
-		top:-5em;
-		left:60%;
-		width: 10em;
+		top:-9em;
+		left:72%;
+		width: 9em;
+        font-size:medium;
 	}
 
 }
 
-@media (max-width:400px){
+@media screen and (max-width:400px){
 	bodyx{
 		background-color: #555;
 		margin-left: 2em;
@@ -148,7 +152,9 @@
 	}
 
 	.menu{
-		width:90%;
+		width:95%;
+        position: relative;
+        top:-7em;
 		font-family: verdana, Segoe UI;
 		background-color:#adadad;
 		margin-left: 9px;

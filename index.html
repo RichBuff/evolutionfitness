@@ -11,11 +11,12 @@
 <script src="js/scripts.js" type="text/javascript" charset="utf-8"></script>
 
 <script type="text/javascript">
-	
 
-	$(function () {
-		initPage();		
-	});
+
+    $(function () {
+        initPage();
+        alert(window.innerWidth +","+window.innerHeight);
+    });
 
 </script>
 
@@ -25,30 +26,31 @@
 			<img src="media/Evolution Fitness Logo.png" alt="Entrance to Evolution Fitness" />
 		</div>
 		<div class="white-text right-address">
-			<span style="font-weight: bold">
-            Evolution Fitness<br/></span>
+			<span style="font-weight: bold;color:#000;font-size:36px;">
+		            Evolution Fitness<br/>
+			</span>
 			3301 Hancock Drive<br/>
 			Austin, TX 78731<br />
-            512.925.1191
+	            512.925.1191
 		</div>
-		
+
 		<div id="menu" class="menu">
 			<ul>
-			<li>
-				<a id="trainers" href="#">Meet The Trainers</a>
-				<div class="sub_menu">
-				<ul>
+				<li>
+					<a id="trainers" href="#">Meet The Trainers</a>
+					<div class="sub_menu">
+        				<ul>
 					<li>
 						<a href="#">
-							<img src="media/mark-icon.jpeg" alt="Mark"/>
+							<img src="images/mark/mark-icon.png" alt="Mark"/>
 							<span style="position: relative;top:-35px;">Mark</span>
 						</a>
 					</li>
-					<li><a href="#"
-							onclick="return showSarah();">
-							<img src="media/sarah-icon.png" alt="Sarah" />
+					<li>
+                        <a href="#"	onclick="return showSarah();">
+							<img src="images/sarah/sarah-icon.png" alt="Sarah" />
 							<span style="position: relative;top:-21px;">Sarah</span>							
-					</a>
+					    </a>
 					</li>
 					<li>
 						<a href="#">Traci
@@ -56,8 +58,8 @@
 						</a>
 					</li>
 				</ul>
-				</div>
-			</li>
+					</div>
+				</li>
 			<li><a href="#">Photo Gallery</a></li>
 			<li><a href="#">Contact</a></li>
 			<li><a href="#">Blog</a></li>
