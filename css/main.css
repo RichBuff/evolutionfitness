@@ -1,0 +1,179 @@
+
+#entry-image{
+	padding-left: .5em;
+}
+
+
+.menu ul{
+	padding:0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.menu ul li{
+	display: inline-block;
+	float:left;
+	position: relative;
+}
+
+.menu ul li a:hover{
+	background-color: #666666;
+}
+
+.sub_menu{
+	position: absolute;
+	background-color: #666666;
+	width:200px;
+	top:38px;
+	left:0px;
+	display:none; /*hide the subitems div tag initially*/
+	border-bottom:4px solid #B34C00; /*just to add a little more good look*/
+}
+.sub_menu ul li{
+	width:200px;
+}
+
+.sub_menu ul li a{
+	color:#ffffff;
+	text-decoration: none;
+	display: block;
+	padding:10px 15px;
+}
+.sub_items ul li a:hover{
+	background-color: #777777;
+}
+
+.white-text {
+	color: black;
+    font-size:2em;
+}
+
+.smaller-font{
+	font-size: small;
+}
+
+.menu ul li{
+	display: inline-block;
+	float:left;
+	position: relative;
+}
+
+
+@media (min-width:960px){
+	html{
+		width: 1024px;	
+		background-color: #222;
+	}
+	
+	.menu{
+		width:98%;
+		font-family: verdana, Segoe UI;
+		background-color:#adadad;
+		margin-left: 9px;
+		height:42px;
+		border: 1px solid #242424;
+		border-radius: 4px; /*To make the corners rounded in IE*/
+		-moz-border-radius: 4px; /*this is for mozilla*/
+		-webkit-border-radius: 4px; /*chrome and other browsers*/
+		box-shadow: 0 1px 1px #dddddd inset;
+		-moz-box-shadow: 0 1px 1px #dddddd inset;
+		-webkit-box-shadow: 0 1px 1px #dddddd inset;
+	}
+	
+	.right-address {
+		position:relative;
+		top:-5em;
+		left: 70%;
+		width: 10em;
+	}
+	
+	.menu ul li a{
+		color:#ffffff;
+		text-decoration: none;
+		display: block;
+		padding:12px 15px;
+	}
+
+}
+
+
+@media (max-width:960px){
+	bodyx{
+		background-color: #555;
+		margin-left: 2em;
+		margin-right: 2em;
+		width:90%;
+		border: 1px solid 656565;
+	}
+
+	.menu{
+		width:90%;
+		font-family: verdana, Segoe UI;
+		background-color:#adadad;
+		margin-left: 9px;
+		height:38px;
+		border: 1px solid #242424;
+		border-radius: 4px; /*To make the corners rounded in IE*/
+		-moz-border-radius: 4px; /*this is for mozilla*/
+		-webkit-border-radius: 4px; /*chrome and other browsers*/
+		box-shadow: 0 1px 1px #dddddd inset;
+		-moz-box-shadow: 0 1px 1px #dddddd inset;
+		-webkit-box-shadow: 0 1px 1px #dddddd inset;
+	}
+
+	
+	.menu ul li a{
+		color:#ffffff;
+		text-decoration: none;
+		display: block;
+		padding:10px 5px;
+	}
+
+	.right-address {
+		position:relative;
+		top:-5em;
+		left:60%;
+		width: 10em;
+	}
+
+}
+
+@media (max-width:400px){
+	bodyx{
+		background-color: #555;
+		margin-left: 2em;
+		margin-right: 2em;
+		width:90%;
+		border: 1px solid #656565;
+	}
+
+	.menu{
+		width:90%;
+		font-family: verdana, Segoe UI;
+		background-color:#adadad;
+		margin-left: 9px;
+		height:38px;
+		border: 1px solid #242424;
+		border-radius: 4px; /*To make the corners rounded in IE*/
+		-moz-border-radius: 4px; /*this is for mozilla*/
+		-webkit-border-radius: 4px; /*chrome and other browsers*/
+		box-shadow: 0 1px 1px #dddddd inset;
+		-moz-box-shadow: 0 1px 1px #dddddd inset;
+		-webkit-box-shadow: 0 1px 1px #dddddd inset;
+	}
+
+	.left-address{
+		position:relative;
+		top:-5em;
+		left:60%;
+	}
+	
+	.menu ul li a{
+		color:#ffffff;
+		text-decoration: none;
+		display: block;
+		padding:5px 5px;
+	}
+
+}
+
